@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<header>
+    <nav class="navbar">
+        <div>
+            <img class="logo1" src="./img/logo1.png" />
+        </div>
+        <div>
+            <a href="#"><img src="./img/desktop.png" /></a>
+            <a href="#"><img src="./img/laptop.png" /></a>
+            <a href="#"><img src="./img/tablet.png" /></a>
+            <a href="#"><img src="./img/phone.png" /></a>
+            <a href="#"><img src="./img/phone2.png" /></a>
+        </div>
+        <div>
+            <img class="close" src="./img/close.png" />
+        </div> 
+    </nav>
+    <div class="header">
+        <img class="logo2" src="./img/logo2.png" />
+        <img class="alinhar" src="./img/alinhar.png" width="20px" height="20px"/>
+    </div>
+</header>
+<main class="main">
+    <div class="conteudo-principal">
+        <p>CONSERTO DE</p>
+        <P>CASA</P>
+        <h1>SERVIÇOS</h1>
+    </div>
+    <div class="img-principal">
+        <p><img src="./img/quadro.png" />QUADRO</p>
+        <p><img src="./img/limpeza.png" />LIMPEZA</p>
+        <p><img class="encanamento" src="./img/encanamento.png" />ENCANAMENTO</p>
+    </div>
+</main>
+
+<footer>
+    <section class="footer1">
+        <div>
+            <p class="p-footer">NOSSOS</p>
+            <p class="p-footer">SERVIÇOS</p>
+            <h1><strong>Como podemos te ajudar?</strong></h1>
+            <p>Somos especializados em tomar as experiências de manutenção de rotina e reparos</p>
+            <p>de emergência sem preocupações. Ligue para nós hoje para saber como nosso</p>
+            <p>progressp realmente é simples!</p>
+            <button class="button" type="button" onclick="alerta()">AGENDE AGORA</button>
+        </div>
+    </section>
+
+</footer>

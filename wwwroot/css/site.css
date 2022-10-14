@@ -1,0 +1,71 @@
+/*header*/
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+}
+.logo1{
+  margin-left: 10px;
+}
+.close{
+  margin-right: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 10px 0;
+}
+
+/*main*/
+.main{
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/a6f4fa926896598d9b5a2e42/dmin.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.conteudo-principal{
+  color: #ffffff;
+  padding: 100px 1669px 25px 327px;
+}
+.conteudo-principal p{
+  margin: 0;
+  font-size: 3.75rem;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.conteudo-principal h1{
+  font-size: 7rem;
+  border-bottom: 12px solid;
+  padding-bottom: 30px;
+}
+.img-principal{
+  display: flex;
+  flex-direction: row;
+  padding-left: 285px;
+  color: white;
+}
+.img-principal p{
+  display: grid;
+  margin-left: 80px;
+}
+.encanamento{
+  margin-left: 16px;
+}
+/*footer*/
+.footer1{
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.button{
+  background-color: #e71a23;
+  border: none;
+  color: #ffffff ;
+  padding: 16px 36px;
+  border-radius: 5px;
+}
+.p-footer{
+  color: rgb(119, 119, 119);
+  margin: 0;
+}
